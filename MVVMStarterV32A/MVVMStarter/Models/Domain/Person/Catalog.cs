@@ -5,7 +5,7 @@ using MVVMStarter.Persistency.Base;
 
 namespace MVVMStarter.Models.Domain.Student
 {
-    public class Catalog : CatalogBase<Person>
+    public class Catalog : CatalogBase<Car>
     {
         #region Model Singleton implementation
         private static Catalog _instance = null;
@@ -23,20 +23,20 @@ namespace MVVMStarter.Models.Domain.Student
         /// <summary>
         /// Use a file-based persistent source
         /// </summary>
-        private Catalog() : base(new CollectionBase<Person>(), new FileSourceBase<Person>())
+        private Catalog() : base(new CollectionBase<Car>(), new FileSourceBase<Car>())
         {
-            ZipFilter = new Filter<Person>("ZipFilter", ZipFilterCondition);
+            ZipFilter = new Filter<Car>("ZipFilter", ZipFilterCondition);
             AddFilter(ZipFilter);
 
-            BornFilter = new Filter<Person>("BornFilter", BornFilterCondition);
+            BornFilter = new Filter<Car>("BornFilter", BornFilterCondition);
             AddFilter(BornFilter);
         }
         #endregion
 
-        public Filter<Person> ZipFilter;
-        private bool ZipFilterCondition(Person obj) { return obj.ZipCode < 3000; }
+        public Filter<Car> ZipFilter;
+        private bool ZipFilterCondition(Car obj) { return obj.ZipCode < 3000; }
 
-        public Filter<Person> BornFilter;
-        private bool BornFilterCondition(Person obj) { return obj.YearOfBirth > 1990; }
+        public Filter<Car> BornFilter;
+        private bool BornFilterCondition(Car obj) { return obj.YearOfBirth > 1990; }
     }
 }

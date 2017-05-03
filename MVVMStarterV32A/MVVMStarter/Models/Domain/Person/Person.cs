@@ -31,7 +31,8 @@ namespace MVVMStarter.Models.Domain.Student
         public override void SetDefaultValues()
         {
             _navn = "(Name)";
-
+            _email = "(anders123@mail.com)";
+            _tlfnummer = (12345678);
         }
     }
 }
