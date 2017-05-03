@@ -242,6 +242,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\Domain\Photo\" />
+    <Folder Include="Models\Domain\Car\" />
+    <Folder Include="Models\Domain\Customer\" />
+    <Folder Include="Models\Domain\Sale\" />
+    <Folder Include="Models\Domain\SP\" />
     <Folder Include="Validators\Base\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
