@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using MVVMStarter.ViewModels.App;
 using MVVMStarter.ViewModels.Base;
-using StudentClass = MVVMStarter.Models.Domain.Student.Student;
+using StudentClass = MVVMStarter.Models.Domain.Student.Person;
 using StudentCatalog = MVVMStarter.Models.Domain.Student.Catalog;
 
 namespace MVVMStarter.ViewModels.Domain.Student

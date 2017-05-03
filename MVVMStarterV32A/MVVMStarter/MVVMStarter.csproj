@@ -103,7 +103,7 @@
     <Compile Include="Models\Domain\Pair\Catalog.cs" />
     <Compile Include="Models\Domain\Pair\Pair.cs" />
     <Compile Include="Models\Domain\Student\Catalog.cs" />
-    <Compile Include="Models\Domain\Student\Student.cs" />
+    <Compile Include="Models\Domain\Student\Person.cs" />
     <Compile Include="Validators\App\ValidationException.cs" />
     <Compile Include="Common\UserActionPresenter.cs" />
     <Compile Include="Controllers\Base\DeleteControllerBase.cs" />

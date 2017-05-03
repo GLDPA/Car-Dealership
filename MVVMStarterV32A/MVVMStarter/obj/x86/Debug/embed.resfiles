@@ -1,0 +1,6 @@
+App.xbf
+Views\App\MainPage.xbf
+Views\App\OpeningView.xbf
+Views\Domain\Pair\View.xbf
+Views\Domain\Photo\View.xbf
+Views\Domain\Student\View.xbf

@@ -1,5 +1,5 @@
 ﻿using MVVMStarter.ViewModels.Base;
-using StudentClass = MVVMStarter.Models.Domain.Student.Student;
+using StudentClass = MVVMStarter.Models.Domain.Student.Person;
 
 namespace MVVMStarter.ViewModels.Domain.Student
 {
