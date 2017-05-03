@@ -102,8 +102,8 @@
     <Compile Include="Models\App\FilterManager.cs" />
     <Compile Include="Models\Domain\Pair\Catalog.cs" />
     <Compile Include="Models\Domain\Pair\Pair.cs" />
-    <Compile Include="Models\Domain\Student\Catalog.cs" />
-    <Compile Include="Models\Domain\Student\Person.cs" />
+    <Compile Include="Models\Domain\Person\Catalog.cs" />
+    <Compile Include="Models\Domain\Person\Person.cs" />
     <Compile Include="Validators\App\ValidationException.cs" />
     <Compile Include="Common\UserActionPresenter.cs" />
     <Compile Include="Controllers\Base\DeleteControllerBase.cs" />
@@ -113,7 +113,7 @@
     <Compile Include="Validators\App\ValidationOutcome.cs" />
     <Compile Include="Validators\App\ValidationHandler.cs" />
     <Compile Include="Validators\Domain\Photo\Validator.cs" />
-    <Compile Include="Views\Domain\Student\View.xaml.cs">
+    <Compile Include="Views\Domain\Car Dealership View\View.xaml.cs">
       <DependentUpon>View.xaml</DependentUpon>
     </Compile>
     <None Include="Validators\Domain\Template\Validator.cs" />
@@ -136,11 +136,11 @@
     <None Include="ViewModels\Domain\Template\DetailsViewModel.cs" />
     <None Include="ViewModels\Domain\Template\MasterDetailsViewModel.cs" />
     <None Include="ViewModels\Domain\Template\ViewModelFactory.cs" />
-    <Compile Include="ViewModels\Domain\Student\DetailsViewModel.cs" />
-    <Compile Include="ViewModels\Domain\Student\ItemViewModel.cs" />
-    <Compile Include="ViewModels\Domain\Student\MasterDetailsViewModel.cs" />
-    <Compile Include="ViewModels\Domain\Student\MasterViewModel.cs" />
-    <Compile Include="ViewModels\Domain\Student\ViewModelFactory.cs" />
+    <Compile Include="ViewModels\Domain\Car Dealership\DetailsViewModel.cs" />
+    <Compile Include="ViewModels\Domain\Car Dealership\ItemViewModel.cs" />
+    <Compile Include="ViewModels\Domain\Car Dealership\MasterDetailsViewModel.cs" />
+    <Compile Include="ViewModels\Domain\Car Dealership\MasterViewModel.cs" />
+    <Compile Include="ViewModels\Domain\Car Dealership\ViewModelFactory.cs" />
     <Compile Include="Views\App\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -235,7 +235,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </None>
-    <Page Include="Views\Domain\Student\View.xaml">
+    <Page Include="Views\Domain\Car Dealership View\View.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
