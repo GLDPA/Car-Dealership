@@ -104,6 +104,7 @@
     <Compile Include="Models\Domain\Pair\Pair.cs" />
     <Compile Include="Models\Domain\Person\Catalog.cs" />
     <Compile Include="Models\Domain\Person\Person.cs" />
+    <Compile Include="Models\Domain\SP\SPClass.cs" />
     <Compile Include="Validators\App\ValidationException.cs" />
     <Compile Include="Common\UserActionPresenter.cs" />
     <Compile Include="Controllers\Base\DeleteControllerBase.cs" />
@@ -245,7 +246,6 @@
     <Folder Include="Models\Domain\Car\" />
     <Folder Include="Models\Domain\Customer\" />
     <Folder Include="Models\Domain\Sale\" />
-    <Folder Include="Models\Domain\SP\" />
     <Folder Include="Validators\Base\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
